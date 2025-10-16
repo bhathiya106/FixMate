@@ -1,0 +1,18 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* React Toastify container styles */
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+/* Basic responsive layout */
+@media (max-width: 768px) {
+  .app {
+    padding: 0 1rem;
+  }
+}
