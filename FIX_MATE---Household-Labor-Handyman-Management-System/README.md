@@ -33,18 +33,15 @@ It simplifies household service requests, worker scheduling, vendor product sale
 - Transaction history with export options  
 - Vendor ratings & reviews  
 
-### 💳 Payment & Scheduling (Prototype)  
-- Smart job scheduling with conflict detection  
-- Prototype payment gateway integration (e.g., PayHere)  
-- Notifications: job confirmations via email/SMS  
-- Automated reminders (24 hrs before job)  
-- Receipts & payment summaries (PDF/Excel)  
-
-### 🎁 Additional Services  
-- Loyalty points for customers (earn & redeem)  
-- Loyalty history reports (Excel/PDF)  
-- Virtual store for household products & tools  
-- Advanced search & filtering (workers & vendors)  
+### 🚚 Delivery Management
+-User roles for delivery drivers
+-Register and login with email/password
+-Auth via JWT cookie delivery_token
+-Accept/reject  delevery orders
+-Driver profile management
+-View and update profile: name, rate, operating area, phone, bio, location
+-Toggle availability status
+-Profile image URL support
 
 ### 🛠️ Admin Subsystem  
 - Approve/ban users (workers, customers, vendors)  
